@@ -1,0 +1,247 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Serifat Bukola</title>
+<meta name="description" content="Serifat -- Python Developer, Data Analyst, Cloud Computing Enthusiast. Portfolio and blog.">
+<meta name="keywords" content="Python Developer, Data Analyst, Cloud Computing, Automation, Portfolio">
+<meta name="author" content="Serifat">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body>
+<header class="navbar">
+  <div class="container nav-flex">
+
+    <!-- LEFT: LOGO + NAME -->
+    <div class="nav-left">
+      <a href="index.html" class="logo">
+        <img src="https://github.com/prinsterlizzy-jpg/serifat-website-/blob/main/images/IMG_5643.jpeg?raw=true"
+             alt="Serifat Logo">
+      </a>
+      <span class="brand-text">&lt;Serifat_Codes/&gt;</span>
+    </div>
+    <!-- RIGHT: THEME + MENU -->
+    <div class="nav-right">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        🌙
+      </button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+    </div>
+    <!-- NAV LINKS -->
+    <nav class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="contact.html" class="btn">Contact</a></li>
+        <li><a href="assets/cv/Serifat_Bukola_CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+</section>
+<button id="openDialog">Click Me</button>
+<dialog id="myDialog">
+  <p>🎄 Merry Christmas and Happy New Year 🎉</p>
+  <button id="closeDialog">OK</button>
+</dialog>
+<script>
+  const dialog = document.getElementById('myDialog');
+  const openBtn = document.getElementById('openDialog');
+  const closeBtn = document.getElementById('closeDialog');
+
+  if (!dialog.showModal) {
+    alert("Dialog not supported in this browser");
+  }
+
+  openBtn.addEventListener('click', () => {
+    dialog.showModal();
+  });
+
+  closeBtn.addEventListener('click', () => {
+    dialog.close();
+  });
+</script>
+    <!-- ABOUT SECTION -->
+    <section class="about-page">
+        <div class="container about-wrapper">
+
+            <div class="about-img">
+                <img src="https://github.com/prinsterlizzy-jpg/serifat-website-/blob/main/images/About%20.jpg?raw=true " alt="Serifat photo">
+            </div>
+
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>
+                    I'm <strong>Serifat Bukola</strong>, a passionate 
+                    <strong>Fullstack Developer, Python Programmer, Data Analyst,</strong> 
+                    and <strong>Cloud Computing Enthusiast</strong>.  
+                    I love building technology that solves real problems -- from automation 
+                    systems to full web applications, CBT platforms, and cloud deployments.
+                </p>
+
+                <p>
+                    With a strong foundation in Python, cloud computing, UI/UX, API integration, and modern web technologies,
+                    I help individuals and businesses streamline their digital processes and build powerful online systems.
+                </p>
+
+                <h2>My Focus</h2>
+                <ul class="about-list">
+                    <li>✔ Fullstack Web Development</li>
+                    <li>✔ Python Automation</li>
+                    <li>✔ Data Analytics & Dashboards</li>
+                    <li>✔ Cloud & AWS Services</li>
+                    <li>✔ CBT Examination Systems</li>
+                </ul>
+
+                <a href="projects/index.html" class="btn">View My Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2>My Tech Journey</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span class="year">2022 - Present</span>
+                    <h3>Python Programming</h3>
+                    <p>Built automation tools, file managers, email systems, WhatsApp bots, and APIs.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">2023 - Present</span>
+                    <h3>Fullstack Development</h3>
+                    <p>Created portfolios, CBT systems, dashboards, and web apps.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">2024 - Present</span>
+                    <h3>Cloud Computing (AWS)</h3>
+                    <p>Hands-on with EC2, IAM, S3, hosting, and server deployment.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year">2024 - Present</span>
+                    <h3>Data Analytics</h3>
+                    <p>Experience in SQL, Power BI, Excel analysis, and visual dashboards.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="tech">
+  <div class="container">
+    <h2>Technologies</h2>
+
+    <section class="technologies">
+  <div class="container">
+
+    <!-- FRONTEND -->
+    <h3 class="tech-title">Frontend</h3>
+    <div class="tech-grid animate-on-scroll">
+      <div class="tech-card" data-tooltip="HTML5">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/html5.svg " alt="HTML">
+      </div>
+      <div class="tech-card" data-tooltip="CSS3">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/css.svg " alt="CSS">
+      </div>
+      <div class="tech-card" data-tooltip="JavaScript">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/jss.svg " alt="JavaScript">
+      </div>
+      <div class="tech-card" data-tooltip="React">
+        <img src=" https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/react.svg "alt="React">
+      </div>
+    </div>
+
+    <!-- BACKEND -->
+    <h3 class="tech-title">Backend</h3>
+    <div class="tech-grid animate-on-scroll">
+      <div class="tech-card" data-tooltip="Python">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/python.svg " alt="Python">
+      </div>
+      <div class="tech-card" data-tooltip="Node.js">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/nodedotjs.svg " alt="Node">
+      </div>
+      <div class="tech-card" data-tooltip="PostgreSQL">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/postgresql.svg " alt="PostgreSQL">
+      </div>
+      <div class="tech-card" data-tooltip="MongoDB">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/mongodb.svg " alt="MongoDB">
+      </div>
+    </div>
+
+    <!-- CLOUD -->
+    <h3 class="tech-title">Cloud</h3>
+    <div class="tech-grid animate-on-scroll">
+      <div class="tech-card" data-tooltip="AWS">
+        <img src="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_website/5c9b235b64a661d7a0dff9df6eadb9a8727dbdf7/assets/zing/icons/icloud.svg " alt="AWS">
+      </div>
+      <div class="tech-card" data-tooltip="Docker">
+        <img src=" https://github.com/prinsterlizzy-jpg/Portfolio_website/blob/main/assets/zing/icons/Docker.svg.PNG?raw=true "alt="Docker">
+      </div>
+      <div class="tech-card" data-tooltip="Netlify">
+        <img src="https://github.com/prinsterlizzy-jpg/Portfolio_website/blob/main/assets/zing/icons/Netlify.svg.PNG?raw=true " alt="Netlify">
+      </div>
+    </div>
+
+  </div>
+</section>
+    <!-- NEWSLETTER -->
+<section class="newsletter">
+  <div class="container">
+    <h2>Join My Newsletter</h2>
+    <p>Get updates on Python, data analysis, and cloud computing.</p>
+
+    <form name="newsletter" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="newsletter">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+  </div>
+</section>
+    
+    <!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>© 2025 <strong>Serifat Bukola</strong>. All rights reserved.</p>
+
+     <aside class="contact-info">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:prinsterlizzy@gmail.com">prinsterlizzy@gmail.com</a></p>
+          <p>Location: Lagos, Nigeria</p>
+          <div class="socials">
+            <a href="https://github.com/prinsterlizzy-jpg" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/akingbade-bukola" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://x.com/lizziebglam?s=21" target="_blank" rel="noopener">Twitter</a>
+          </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
