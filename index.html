@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serifat Bukola | Python Developer & Cloud Enthusiast</title>
+  <meta name="description" content="Serifat Bukola -- Python Developer, Data Analyst, and Cloud Computing Enthusiast. Portfolio and technical blog.">
+  <meta name="keywords" content="Python Developer, Data Analyst, Cloud Computing, Automation, Portfolio">
+  <meta name="author" content="Serifat Bukola">
+  <!-- Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-flex">
+    <!-- LEFT: LOGO + NAME -->
+    <div class="nav-left">
+      <a href="index.html" class="logo">
+        <img src="https://github.com/prinsterlizzy-jpg/serifat-website-/blob/main/images/IMG_5643.jpeg?raw=true"
+             alt="Serifat Logo">
+      </a>
+      <span class="brand-text">&lt;Serifat_Codes/&gt;</span>
+    </div>
+    <!-- RIGHT: THEME + MENU -->
+    <div class="nav-right">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        🌙
+      </button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+    </div>
+    <!-- NAV LINKS -->
+    <nav class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="contact.html" class="btn">Contact</a></li>
+        <li><a href="assets/cv/Serifat_Bukola_CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="name">Serifat</span></h1>
+            <h2>I am a <span class="typing"></span></h2>
+      <p>
+        I build data-driven solutions, automation tools,
+        and cloud-ready web applications.
+      </p>
+      <div class="hero-buttons">
+        <a href="projects/index.html" class="btn">View Projects</a>
+        <a href="contact.html" class="btn-outline">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="https://github.com/prinsterlizzy-jpg/serifat-website-/blob/main/images/IMG_5643.jpeg?raw=true" alt="Serifat Bukola">
+    </div>
+  </div>
+</section>
+<button id="openDialog">Click Me</button>
+<dialog id="myDialog">
+  <p>🎄 Merry Christmas and Happy New Year 🎉</p>
+  <button id="closeDialog">OK</button>
+</dialog>
+<script>
+  const dialog = document.getElementById('myDialog');
+  const openBtn = document.getElementById('openDialog');
+  const closeBtn = document.getElementById('closeDialog');
+  if (!dialog.showModal) {
+    alert("Dialog not supported in this browser");
+  }
+  openBtn.addEventListener('click', () => {
+    dialog.showModal();
+  });
+
+  closeBtn.addEventListener('click', () => {
+    dialog.close();
+  });
+</script>
+<!-- AVAILABILITY -->
+<section class="availability">
+  <div class="container">
+    <h2>Open to Opportunities</h2>
+    <p>I build and manage data-driven websites, web applications, and automation solutions using Python and modern web technologies. With full-stack and cloud computing expertise, I deliver scalable, high-performance systems that improve user experience and support business growth.</p>
+  </div>
+</section>
+<a href="assets/cv/Serifat_Bukola_CV.pdf" download>CV</a></li>
+<!-- Tools -->
+<marquee behavior="scroll" direction="left"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+</marquee>
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>© 2025 <strong>Serifat Bukola</strong>. All rights reserved.</p>
+     <aside class="contact-info">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:prinsterlizzy@gmail.com">prinsterlizzy@gmail.com</a></p>
+          <p>Location: Lagos, Nigeria</p>
+          <div class="socials">
+            <a href="https://github.com/prinsterlizzy-jpg" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/akingbade-bukola" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://x.com/lizziebglam?s=21" target="_blank" rel="noopener">Twitter</a>
+          </div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
