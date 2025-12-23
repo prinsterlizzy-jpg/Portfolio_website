@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Serifat</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+<meta name="description" content="Serifat -- Python Developer, Data Analyst, Cloud Computing Enthusiast. Portfolio and blog.">
+<meta name="keywords" content="Python Developer, Data Analyst, Cloud Computing, Automation, Portfolio">
+<meta name="author" content="Serifat">
+</head>
+<!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body>
+<header class="navbar">
+  <div class="container nav-flex">
+
+    <!-- LEFT: LOGO + NAME -->
+    <div class="nav-left">
+      <a href="index.html" class="logo">
+        <img src="https://github.com/prinsterlizzy-jpg/serifat-website-/blob/main/images/IMG_5643.jpeg?raw=true"
+             alt="Serifat Logo">
+      </a>
+      <span class="brand-text">&lt;Serifat_Codes/&gt;</span>
+    </div>
+    <!-- RIGHT: THEME + MENU -->
+    <div class="nav-right">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        🌙
+      </button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+    </div>
+    <!-- NAV LINKS -->
+    <nav class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="contact.html" class="btn">Contact</a></li>
+        <li><a href="assets/cv/Serifat_Bukola_CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+</section>
+<button id="openDialog">Click Me</button>
+<dialog id="myDialog">
+  <p>🎄 Merry Christmas and Happy New Year 🎉</p>
+  <button id="closeDialog">OK</button>
+</dialog>
+<script>
+  const dialog = document.getElementById('myDialog');
+  const openBtn = document.getElementById('openDialog');
+  const closeBtn = document.getElementById('closeDialog');
+
+  if (!dialog.showModal) {
+    alert("Dialog not supported in this browser");
+  }
+
+  openBtn.addEventListener('click', () => {
+    dialog.showModal();
+  });
+
+  closeBtn.addEventListener('click', () => {
+    dialog.close();
+  });
+</script>
+
+<!-- ================= HERO ================= -->
+<section class="page-hero">
+  <div class="container">
+    <h1>My Projects</h1>
+    <p>Real-world projects showcasing my skills and experience.</p>
+  </div>
+</section>
+
+<!-- ================= PROJECTS GRID ================= -->
+<section class="projects-section">
+  <div class="container projects-grid">
+
+    <!-- Automation -->
+    <div class="project-card">
+      <img src="../assets/img/projects/automation.jpeg" alt="Python Automation">
+      <div class="project-content">
+        <h3>Python Automation App</h3>
+        <p>Automated repetitive tasks using Python to improve efficiency.</p>
+        <a href="automation.html" class="btn-sm">View Project</a>
+      </div>
+    </div>
+
+    <!-- CBT -->
+    <div class="project-card">
+      <img src="../assets/img/projects/cbt.png" alt="CBT System">
+      <div class="project-content">
+        <h3>CBT Examination System</h3>
+        <p>Computer-based testing system for schools and institutions.</p>
+        <a href="cbt.html" class="btn-sm">View Project</a>
+      </div>
+    </div>
+
+    <!-- Data Analysis -->
+    <div class="project-card">
+      <img src="../assets/img/projects/data-analysis.jpeg" alt="Data Analysis">
+      <div class="project-content">
+        <h3>Data Analysis Dashboard</h3>
+        <p>Data-driven insights using Power BI and Excel.</p>
+        <a href="data-analysis.html" class="btn-sm">View Project</a>
+      </div>
+    </div>
+
+    <!-- Cloud -->
+    <div class="project-card">
+      <img src="../assets/img/projects/cloud.jpeg" alt="Cloud Computing">
+      <div class="project-content">
+        <h3>Cloud Computing (AWS)</h3>
+        <p>Website deployment and storage using AWS cloud services.</p>
+        <a href="cloud.html" class="btn-sm">View Project</a>
+      </div>
+    </div>
+
+    <!-- Fullstack -->
+    <div class="project-card">
+      <img src="../assets/img/projects/fullstack.jpeg" alt="Fullstack Project">
+      <div class="project-content">
+        <h3>Full-Stack Web Application</h3>
+        <p>Complete web app with frontend, backend, and database.</p>
+        <a href="fullstack.html" class="btn-sm">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Interested in my work?</h2>
+    <p>Let's collaborate on your next project.</p>
+    <a href="../contact.html" class="btn">Contact Me</a>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-content">
+    <p>© 2025 <strong>Serifat Bukola</strong>. All rights reserved.</p>
+
+     <aside class="contact-info">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:prinsterlizzy@gmail.com">prinsterlizzy@gmail.com</a></p>
+          <p>Location: Lagos, Nigeria</p>
+          <div class="socials">
+            <a href="https://github.com/prinsterlizzy-jpg" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/akingbade-bukola" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://x.com/lizziebglam?s=21" target="_blank" rel="noopener">Twitter</a>
+          </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
