@@ -141,7 +141,9 @@ Google Analytics is integrated to track:
 
 # 📄 Resume  
 You can download my resume here:  
-👉 **[Download My Resume]* https://github.com/prinsterlizzy-jpg/Portfolio_website/blob/25780183c250a194cb1cdd273e925ebb3a979e0b/assets/zing/Serifat_Bukola_CV.pdf•
+👉 **[Download My Resume]* <a href="https://raw.githubusercontent.com/prinsterlizzy-jpg/Portfolio_/7089873c71c971cde0027112b47bd21049366fde/assets/cv/Serifat_Bukola_CV.pdf" target="_blank">
+  View My CV
+</a>
 
 Services
 	•	Python Programming
