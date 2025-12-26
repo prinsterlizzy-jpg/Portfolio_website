@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Automation App | Serifat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Serifat -- Python Developer, Data Analyst, Cloud Computing Enthusiast. Portfolio and blog.">
+  <meta name="keywords" content="Python Developer, Data Analyst, Cloud Computing, Automation, Portfolio">
+  <meta name="author" content="Serifat">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR4EE58S72"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PR4EE58S72');
+  </script>
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="container nav-flex">
+
+    <div class="nav-left">
+      <a href="../index.html" class="logo">
+        <img src="https://github.com/prinsterlizzy-jpg/serifat-website-/blob/main/images/IMG_5643.jpeg?raw=true" alt="Serifat Logo">
+      </a>
+      <span class="brand-text">&lt;Serifat_Codes/&gt;</span>
+    </div>
+
+    <div class="nav-right">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+
+    <nav class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../skills.html">Skills</a></li>
+        <li><a href="index.html" class="active">Projects</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../contact.html" class="btn">Contact</a></li>
+        <li><a href="../assets/cv/Serifat_Bukola_CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<!-- OPTIONAL DIALOG -->
+<button id="openDialog">Click Me</button>
+<dialog id="myDialog">
+  <p>🎄 Merry Christmas and Happy New Year 🎉</p>
+  <button id="closeDialog">OK</button>
+</dialog>
+
+<!-- HERO -->
+<section class="project-hero">
+  <div class="container">
+    <h1>Python Automation App</h1>
+    <p>Automating repetitive tasks using Python scripts.</p>
+  </div>
+</section>
+
+<!-- PROJECT DETAILS -->
+<section class="project-detail">
+  <div class="container">
+
+    <img src="https://github.com/prinsterlizzy-jpg/Fullstack/blob/main/Images/IMG_5657.jpeg?raw=true" alt="Automation Project">
+
+    <h2>Project Overview</h2>
+    <p>
+      This Python automation project reduces manual work by automating
+      tasks such as email sending, file organization, and data processing.
+    </p>
+
+    <h2>Tools & Technologies</h2>
+    <ul class="project-details">
+      <li>Python</li>
+      <li>SMTP & APIs</li>
+      <li>Task Scheduling</li>
+    </ul>
+
+    <h2>What I Learned</h2>
+    <p>
+      Writing clean, reusable scripts and building efficient automation workflows.
+    </p>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-content">
+
+    <p>© 2025 <strong>Serifat Bukola</strong>. All rights reserved.</p>
+
+    <aside class="contact-info">
+      <h3>Get in touch</h3>
+      <p>Email: <a href="mailto:prinsterlizzy@gmail.com">prinsterlizzy@gmail.com</a></p>
+      <p>Location: Lagos, Nigeria</p>
+
+      <div class="socials">
+        <a href="https://github.com/prinsterlizzy-jpg" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/akingbade-bukola" target="_blank">LinkedIn</a>
+        <a href="https://x.com/lizziebglam?s=21" target="_blank">Twitter</a>
+      </div>
+    </aside>
+
+  </div>
+</footer>
+
+<script src="../assets/js/script.js"></script>
+
+<script>
+  const dialog = document.getElementById('myDialog');
+  const openBtn = document.getElementById('openDialog');
+  const closeBtn = document.getElementById('closeDialog');
+
+  openBtn.addEventListener('click', () => dialog.showModal());
+  closeBtn.addEventListener('click', () => dialog.close());
+</script>
+
+</body>
+</html>
